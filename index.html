@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Parent Register</title>
         <link rel="stylesheet" href="styles.css">
+        <script type="module" src="app.js", charset="utf-8"></script>
+        <script type="module" src="interests_activities.js", charset="utf-8"></script>
     </head>
     <body>
         <header>
@@ -37,27 +39,9 @@
                                                     <option value="non-binary">non-binary</option>
                                                 </select></td>
                                             </tr>
+                                        </table>
+                                        <table id="child-interests-table" >
                                             <tr><td><h4>Interests:</h4></td></tr>
-                                            <tr>
-                                                <td> football </td>
-                                                <td><input type="checkbox" id="football"></td>
-                                            </tr>
-                                            <tr>
-                                                <td> chess </td>
-                                                <td><input type="checkbox" id="chess"></td>
-                                            </tr>
-                                            <tr>
-                                                <td> drawing </td>
-                                                <td><input type="checkbox" id="drawing"></td>
-                                            </tr>
-                                            <tr>
-                                                <td> video game </td>
-                                                <td><input type="checkbox" id="video-game"></td>
-                                            </tr>
-                                            <tr>
-                                                <td>Other interests:</td>
-                                                <td><input type="text" id="child-interests-text"></td>
-                                            </tr>
                                         </table>
                                         <br>
                                         <input type="button" value="Submit Child Info" id="child-submit-button">
@@ -68,9 +52,10 @@
                                 <div id="recommend-div">
                                     <h3>Senior-Activity Recommended:</h3><br>
                                     <span id="senior-span">Senior:</span><br>
-                                    <img alt="Senior recommended" class="resized-img" id="senior-img" hidden>
-                                    <span id="activity-span">Activity:</span>
+                                    <img alt="Senior recommended" class="resized-img" id="senior-img" hidden><br>
+                                    <span id="activity-label-span">Activity:</span><span id="activity-content-span">Activity:</span><br>
                                     <input type="button" value="Accept Senior" id="senior-accept-button">
+                                    <input type="button" value="Decline Senior" id="senior-decline-button">
                                 </div>
                             </td>
                             <td class="hor-td">                                
@@ -108,6 +93,5 @@
                 </div>
             </div>
         </div>
-        <script src="app.js", charset="utf-8"></script>
     </body>
 </html>
