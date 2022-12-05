@@ -17,11 +17,6 @@ header > h1 {
     color: cadetblue;
     text-align: center;
 }
-/*
-#child-info-div {
-    padding: 10px;
-}
-*/
 /*https://stackoverflow.com/questions/396145/*/
 .outer {
     display: table;
@@ -49,7 +44,8 @@ header > h1 {
 
 .resized-img {
     width: 200px;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
 }
 
 .hor-td {
