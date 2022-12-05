@@ -1,5 +1,5 @@
 // senior-activity data
-const seionr_img_src = "senior-activity_database/[Pexels][Edu Carvalho] selective-focus-photography-of-woman-standing-near-green-plant-2050976.jpg"
+const seionr_img_src = "https://github.com/holoboro1031/holoboro1031.github.io/blob/d649ba644dbd6d369bd0f8e9ec2f6c185ed47054/senior-activity_database/%5BPexels%5D%5BEdu%20Carvalho%5D%20selective-focus-photography-of-woman-standing-near-green-plant-2050976.jpg"
 const activity = "Activity: Drink Coffe"
 
 // child info components
