@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: moccasin;
+}
+
+header {
+    background: white;
+    padding: 28px;
+}
+
+header > h1 {
+    color: cadetblue;
+    text-align: center;
+}
+/*
+#child-info-div {
+    padding: 10px;
+}
+*/
+/*https://stackoverflow.com/questions/396145/*/
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+  
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+  
+.inner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* Whatever width you want */
+}
+
+.resized-img {
+    width: 200px;
+    height: auto;
+}
+
+.hor-td {
+    vertical-align: top;
+    padding: 15px;
+}
