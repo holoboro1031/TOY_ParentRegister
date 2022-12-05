@@ -1,5 +1,5 @@
 // senior-activity data
-const seionr_img_src = "5616.webp"
+const seionr_img_src = "senior-activity_database/[Pexels][Edu Carvalho] selective-focus-photography-of-woman-standing-near-green-plant-2050976.jpg"
 const activity = "Activity: Drink Coffe"
 
 // child info components
