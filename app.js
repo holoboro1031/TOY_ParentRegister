@@ -15,7 +15,7 @@ const child_interests_table = document.getElementById("child-interests-table");
 
 for (var i = 0; i < interests_activitys.length; i++) {    
     // https://www.w3schools.com/jsref/met_table_insertrow.asp
-    var row = child_interests_table.insertRow(0);    
+    var row = child_interests_table.insertRow(i+1);    
     // https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
     row.innerHTML = `<tr><td>${interests_activitys[i]}</td><td><input type="checkbox" id="${getID(interests_activitys[i])}"></td></tr>`
     /*
